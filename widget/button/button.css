@@ -1,0 +1,9 @@
+:host {
+	display: inline-block;
+}
+
+input {
+	font-family: Sans-Serif;
+	color: #314058;
+	background-color: #2E8BA9;
+}

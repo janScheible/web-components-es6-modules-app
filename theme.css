@@ -1,0 +1,24 @@
+@import url('loader.css');
+
+/* NOTE Makes sure that the hidden attribute works as expected. */
+:host([hidden]) {
+	display: none
+}
+
+:host {
+	font-family: Helvetica, Arial, Sans-Serif;
+
+	box-sizing: border-box;
+
+	--theme-body-bg: #314058;
+	--theme-link-color: gray;
+	--theme-headings-color: greenyellow;
+}
+
+:host(.load-mask) {
+	background-color: darkgray;
+}
+
+a {
+	color: var(--theme-link-color);
+}

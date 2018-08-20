@@ -1,0 +1,15 @@
+<template>
+	<div id="vertical-container">
+		<elix-tabs id="tabs" proxy-list-position="left">
+			<div id="login-page-tab-button" aria-label="Login">
+				<slot name="login-page"></slot>
+			</div>
+			<div id="main-page-tab-button" aria-label="Main">
+				<slot name="main-page"></slot>
+			</div>
+			<div id="about-page-tab-button" aria-label="About">
+				<slot name="about-page"></slot>
+			</div>
+		</elix-tabs>
+	</div>
+</template>

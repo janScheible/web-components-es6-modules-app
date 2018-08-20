@@ -1,0 +1,26 @@
+:host {
+	width: 640px;
+	height: 480px;
+
+	display: block;
+	border: 2px solid lightpink;
+	background-color: var(--theme-body-bg);
+}
+
+#vertical-container {
+	display: flex;
+	flex-direction: column;
+
+	height: 100%;
+}
+
+#tabs {
+	flex: 1;
+
+	width: 100%;
+	display: inline-flex;
+}
+
+#tabs > div {
+	flex: 1;
+}

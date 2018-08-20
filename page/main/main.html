@@ -1,0 +1,14 @@
+<template>
+	<div id="vertical-container">
+		<heading-widget>Main</heading-widget>
+
+		<elix-tabs id="tabs">
+			<div id="first-sub-page-tab-button" aria-label="First">
+				<slot name="first-sub-page"></slot>
+			</div>
+			<div id="second-sub-page-tab-button" aria-label="Second">
+				<slot name="second-sub-page"></slot>
+			</div>
+		</elix-tabs>
+	</div>
+</template>
